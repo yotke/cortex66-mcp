@@ -1,0 +1,37 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.yotke/cortex66",
+  "title": "Cortex66",
+  "description": "Lets an AI chat join your Cortex66 work sessions, take open tasks and search confirmed facts.",
+  "version": "1.0.1",
+  "websiteUrl": "https://cortex66.com",
+  "icons": [
+    {
+      "src": "https://cortex66.com/logo-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    },
+    {
+      "src": "https://cortex66.com/logo-192.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "192x192"
+      ]
+    },
+    {
+      "src": "https://cortex66.com/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cortex66.com/api/mcp"
+    }
+  ]
+}
